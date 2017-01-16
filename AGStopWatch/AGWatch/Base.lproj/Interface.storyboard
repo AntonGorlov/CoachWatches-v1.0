@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="10117" systemVersion="15E65" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="AgC-eL-Hgc">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="10032"/>
+    </dependencies>
+    <scenes>
+        <!--Interface Controller-->
+        <scene sceneID="aou-V4-d1y">
+            <objects>
+                <controller id="AgC-eL-Hgc" customClass="InterfaceController">
+                    <items>
+                        <button width="1" alignment="center" verticalAlignment="bottom" title="Stop" id="RXo-yI-6q7">
+                            <color key="titleColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            <fontDescription key="font" type="system" pointSize="17"/>
+                            <connections>
+                                <action selector="stopAction" destination="AgC-eL-Hgc" id="aPg-2Z-1ak"/>
+                            </connections>
+                        </button>
+                        <label height="9" alignment="right" text=".00" textAlignment="center" minimumScaleFactor="0.0" id="PHl-oT-Zqf">
+                            <color key="textColor" red="1" green="0.5" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            <fontDescription key="font" type="system" weight="light" pointSize="9"/>
+                        </label>
+                        <timer width="136" height="18.5" alignment="center" textAlignment="center" id="ZML-iq-tqb">
+                            <color key="textColor" red="1" green="0.5" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            <fontDescription key="font" type="system" weight="medium" pointSize="27"/>
+                            <variation key="device=watch42mm">
+                                <calendarUnit key="units" hour="YES" minute="YES" second="YES"/>
+                            </variation>
+                        </timer>
+                        <button width="1" alignment="left" verticalAlignment="center" title="Start" id="Ryb-sm-7jp">
+                            <color key="titleColor" red="0.0" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            <fontDescription key="font" type="system" pointSize="17"/>
+                            <connections>
+                                <action selector="startAction" destination="AgC-eL-Hgc" id="yQM-36-HvU"/>
+                            </connections>
+                        </button>
+                        <button width="1" alignment="left" verticalAlignment="bottom" title="Clear" id="JbY-xd-MOs">
+                            <color key="titleColor" red="1" green="0.96954255710000004" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            <fontDescription key="font" type="system" pointSize="17"/>
+                            <connections>
+                                <action selector="clearAction" destination="AgC-eL-Hgc" id="JuO-gm-JYZ"/>
+                            </connections>
+                        </button>
+                    </items>
+                    <connections>
+                        <outlet property="displayLabel" destination="PHl-oT-Zqf" id="Yeu-8L-esK"/>
+                        <outlet property="timerLabel" destination="ZML-iq-tqb" id="8sO-nd-dAy"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="238" y="1359.5"/>
+        </scene>
+    </scenes>
+</document>

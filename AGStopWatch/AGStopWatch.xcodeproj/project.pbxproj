@@ -1,0 +1,789 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A3FB15351CF6E53C00E05EA6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A3FB15341CF6E53C00E05EA6 /* main.m */; };
+		A3FB15381CF6E53C00E05EA6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A3FB15371CF6E53C00E05EA6 /* AppDelegate.m */; };
+		A3FB153B1CF6E53C00E05EA6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A3FB153A1CF6E53C00E05EA6 /* ViewController.m */; };
+		A3FB153E1CF6E53C00E05EA6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A3FB153C1CF6E53C00E05EA6 /* Main.storyboard */; };
+		A3FB15401CF6E53C00E05EA6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A3FB153F1CF6E53C00E05EA6 /* Assets.xcassets */; };
+		A3FB15431CF6E53C00E05EA6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A3FB15411CF6E53C00E05EA6 /* LaunchScreen.storyboard */; };
+		A3FB154E1CF6E53C00E05EA6 /* AGStopWatchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A3FB154D1CF6E53C00E05EA6 /* AGStopWatchTests.m */; };
+		A3FB15591CF6E53C00E05EA6 /* AGStopWatchUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A3FB15581CF6E53C00E05EA6 /* AGStopWatchUITests.m */; };
+		A3FB156C1CF6E54E00E05EA6 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A3FB156A1CF6E54E00E05EA6 /* Interface.storyboard */; };
+		A3FB156E1CF6E54E00E05EA6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A3FB156D1CF6E54E00E05EA6 /* Assets.xcassets */; };
+		A3FB15751CF6E54E00E05EA6 /* AGWatch Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = A3FB15741CF6E54E00E05EA6 /* AGWatch Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		A3FB157B1CF6E54E00E05EA6 /* InterfaceController.m in Sources */ = {isa = PBXBuildFile; fileRef = A3FB157A1CF6E54E00E05EA6 /* InterfaceController.m */; };
+		A3FB157E1CF6E54E00E05EA6 /* ExtensionDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A3FB157D1CF6E54E00E05EA6 /* ExtensionDelegate.m */; };
+		A3FB15801CF6E54E00E05EA6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A3FB157F1CF6E54E00E05EA6 /* Assets.xcassets */; };
+		A3FB15841CF6E54E00E05EA6 /* AGWatch.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = A3FB15681CF6E54E00E05EA6 /* AGWatch.app */; };
+		A3FB158F1CF6E9D600E05EA6 /* AGCoachWatches.m in Sources */ = {isa = PBXBuildFile; fileRef = A3FB158E1CF6E9D600E05EA6 /* AGCoachWatches.m */; };
+		A3FB15921CF6FAF800E05EA6 /* NSString+AGFormatTime.m in Sources */ = {isa = PBXBuildFile; fileRef = A3FB15911CF6FAF800E05EA6 /* NSString+AGFormatTime.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A3FB154A1CF6E53C00E05EA6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A3FB15281CF6E53C00E05EA6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A3FB152F1CF6E53C00E05EA6;
+			remoteInfo = AGStopWatch;
+		};
+		A3FB15551CF6E53C00E05EA6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A3FB15281CF6E53C00E05EA6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A3FB152F1CF6E53C00E05EA6;
+			remoteInfo = AGStopWatch;
+		};
+		A3FB15761CF6E54E00E05EA6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A3FB15281CF6E53C00E05EA6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A3FB15731CF6E54E00E05EA6;
+			remoteInfo = "AGWatch Extension";
+		};
+		A3FB15821CF6E54E00E05EA6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A3FB15281CF6E53C00E05EA6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A3FB15671CF6E54E00E05EA6;
+			remoteInfo = AGWatch;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		A3FB15881CF6E54E00E05EA6 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				A3FB15751CF6E54E00E05EA6 /* AGWatch Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3FB158C1CF6E54E00E05EA6 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				A3FB15841CF6E54E00E05EA6 /* AGWatch.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		A3FB15301CF6E53C00E05EA6 /* AGStopWatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AGStopWatch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3FB15341CF6E53C00E05EA6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A3FB15361CF6E53C00E05EA6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A3FB15371CF6E53C00E05EA6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A3FB15391CF6E53C00E05EA6 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A3FB153A1CF6E53C00E05EA6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A3FB153D1CF6E53C00E05EA6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A3FB153F1CF6E53C00E05EA6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A3FB15421CF6E53C00E05EA6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A3FB15441CF6E53C00E05EA6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A3FB15491CF6E53C00E05EA6 /* AGStopWatchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AGStopWatchTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3FB154D1CF6E53C00E05EA6 /* AGStopWatchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AGStopWatchTests.m; sourceTree = "<group>"; };
+		A3FB154F1CF6E53C00E05EA6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A3FB15541CF6E53C00E05EA6 /* AGStopWatchUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AGStopWatchUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3FB15581CF6E53C00E05EA6 /* AGStopWatchUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AGStopWatchUITests.m; sourceTree = "<group>"; };
+		A3FB155A1CF6E53C00E05EA6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A3FB15681CF6E54E00E05EA6 /* AGWatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AGWatch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3FB156B1CF6E54E00E05EA6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		A3FB156D1CF6E54E00E05EA6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A3FB156F1CF6E54E00E05EA6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A3FB15741CF6E54E00E05EA6 /* AGWatch Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "AGWatch Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3FB15791CF6E54E00E05EA6 /* InterfaceController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InterfaceController.h; sourceTree = "<group>"; };
+		A3FB157A1CF6E54E00E05EA6 /* InterfaceController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InterfaceController.m; sourceTree = "<group>"; };
+		A3FB157C1CF6E54E00E05EA6 /* ExtensionDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ExtensionDelegate.h; sourceTree = "<group>"; };
+		A3FB157D1CF6E54E00E05EA6 /* ExtensionDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ExtensionDelegate.m; sourceTree = "<group>"; };
+		A3FB157F1CF6E54E00E05EA6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A3FB15811CF6E54E00E05EA6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A3FB158D1CF6E9D600E05EA6 /* AGCoachWatches.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGCoachWatches.h; sourceTree = "<group>"; };
+		A3FB158E1CF6E9D600E05EA6 /* AGCoachWatches.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AGCoachWatches.m; sourceTree = "<group>"; };
+		A3FB15901CF6FAF800E05EA6 /* NSString+AGFormatTime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+AGFormatTime.h"; sourceTree = "<group>"; };
+		A3FB15911CF6FAF800E05EA6 /* NSString+AGFormatTime.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+AGFormatTime.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A3FB152D1CF6E53C00E05EA6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3FB15461CF6E53C00E05EA6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3FB15511CF6E53C00E05EA6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3FB15711CF6E54E00E05EA6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A3FB15271CF6E53C00E05EA6 = {
+			isa = PBXGroup;
+			children = (
+				A3FB15321CF6E53C00E05EA6 /* AGStopWatch */,
+				A3FB154C1CF6E53C00E05EA6 /* AGStopWatchTests */,
+				A3FB15571CF6E53C00E05EA6 /* AGStopWatchUITests */,
+				A3FB15691CF6E54E00E05EA6 /* AGWatch */,
+				A3FB15781CF6E54E00E05EA6 /* AGWatch Extension */,
+				A3FB15311CF6E53C00E05EA6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A3FB15311CF6E53C00E05EA6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A3FB15301CF6E53C00E05EA6 /* AGStopWatch.app */,
+				A3FB15491CF6E53C00E05EA6 /* AGStopWatchTests.xctest */,
+				A3FB15541CF6E53C00E05EA6 /* AGStopWatchUITests.xctest */,
+				A3FB15681CF6E54E00E05EA6 /* AGWatch.app */,
+				A3FB15741CF6E54E00E05EA6 /* AGWatch Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A3FB15321CF6E53C00E05EA6 /* AGStopWatch */ = {
+			isa = PBXGroup;
+			children = (
+				A3FB15361CF6E53C00E05EA6 /* AppDelegate.h */,
+				A3FB15371CF6E53C00E05EA6 /* AppDelegate.m */,
+				A3FB15391CF6E53C00E05EA6 /* ViewController.h */,
+				A3FB153A1CF6E53C00E05EA6 /* ViewController.m */,
+				A3FB153C1CF6E53C00E05EA6 /* Main.storyboard */,
+				A3FB153F1CF6E53C00E05EA6 /* Assets.xcassets */,
+				A3FB15411CF6E53C00E05EA6 /* LaunchScreen.storyboard */,
+				A3FB15441CF6E53C00E05EA6 /* Info.plist */,
+				A3FB15331CF6E53C00E05EA6 /* Supporting Files */,
+			);
+			path = AGStopWatch;
+			sourceTree = "<group>";
+		};
+		A3FB15331CF6E53C00E05EA6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A3FB15341CF6E53C00E05EA6 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A3FB154C1CF6E53C00E05EA6 /* AGStopWatchTests */ = {
+			isa = PBXGroup;
+			children = (
+				A3FB154D1CF6E53C00E05EA6 /* AGStopWatchTests.m */,
+				A3FB154F1CF6E53C00E05EA6 /* Info.plist */,
+			);
+			path = AGStopWatchTests;
+			sourceTree = "<group>";
+		};
+		A3FB15571CF6E53C00E05EA6 /* AGStopWatchUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A3FB15581CF6E53C00E05EA6 /* AGStopWatchUITests.m */,
+				A3FB155A1CF6E53C00E05EA6 /* Info.plist */,
+			);
+			path = AGStopWatchUITests;
+			sourceTree = "<group>";
+		};
+		A3FB15691CF6E54E00E05EA6 /* AGWatch */ = {
+			isa = PBXGroup;
+			children = (
+				A3FB156A1CF6E54E00E05EA6 /* Interface.storyboard */,
+				A3FB156D1CF6E54E00E05EA6 /* Assets.xcassets */,
+				A3FB156F1CF6E54E00E05EA6 /* Info.plist */,
+			);
+			path = AGWatch;
+			sourceTree = "<group>";
+		};
+		A3FB15781CF6E54E00E05EA6 /* AGWatch Extension */ = {
+			isa = PBXGroup;
+			children = (
+				A3FB158D1CF6E9D600E05EA6 /* AGCoachWatches.h */,
+				A3FB158E1CF6E9D600E05EA6 /* AGCoachWatches.m */,
+				A3FB15901CF6FAF800E05EA6 /* NSString+AGFormatTime.h */,
+				A3FB15911CF6FAF800E05EA6 /* NSString+AGFormatTime.m */,
+				A3FB15791CF6E54E00E05EA6 /* InterfaceController.h */,
+				A3FB157A1CF6E54E00E05EA6 /* InterfaceController.m */,
+				A3FB157C1CF6E54E00E05EA6 /* ExtensionDelegate.h */,
+				A3FB157D1CF6E54E00E05EA6 /* ExtensionDelegate.m */,
+				A3FB157F1CF6E54E00E05EA6 /* Assets.xcassets */,
+				A3FB15811CF6E54E00E05EA6 /* Info.plist */,
+			);
+			path = "AGWatch Extension";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A3FB152F1CF6E53C00E05EA6 /* AGStopWatch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A3FB155D1CF6E53C00E05EA6 /* Build configuration list for PBXNativeTarget "AGStopWatch" */;
+			buildPhases = (
+				A3FB152C1CF6E53C00E05EA6 /* Sources */,
+				A3FB152D1CF6E53C00E05EA6 /* Frameworks */,
+				A3FB152E1CF6E53C00E05EA6 /* Resources */,
+				A3FB158C1CF6E54E00E05EA6 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A3FB15831CF6E54E00E05EA6 /* PBXTargetDependency */,
+			);
+			name = AGStopWatch;
+			productName = AGStopWatch;
+			productReference = A3FB15301CF6E53C00E05EA6 /* AGStopWatch.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A3FB15481CF6E53C00E05EA6 /* AGStopWatchTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A3FB15601CF6E53C00E05EA6 /* Build configuration list for PBXNativeTarget "AGStopWatchTests" */;
+			buildPhases = (
+				A3FB15451CF6E53C00E05EA6 /* Sources */,
+				A3FB15461CF6E53C00E05EA6 /* Frameworks */,
+				A3FB15471CF6E53C00E05EA6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A3FB154B1CF6E53C00E05EA6 /* PBXTargetDependency */,
+			);
+			name = AGStopWatchTests;
+			productName = AGStopWatchTests;
+			productReference = A3FB15491CF6E53C00E05EA6 /* AGStopWatchTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A3FB15531CF6E53C00E05EA6 /* AGStopWatchUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A3FB15631CF6E53C00E05EA6 /* Build configuration list for PBXNativeTarget "AGStopWatchUITests" */;
+			buildPhases = (
+				A3FB15501CF6E53C00E05EA6 /* Sources */,
+				A3FB15511CF6E53C00E05EA6 /* Frameworks */,
+				A3FB15521CF6E53C00E05EA6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A3FB15561CF6E53C00E05EA6 /* PBXTargetDependency */,
+			);
+			name = AGStopWatchUITests;
+			productName = AGStopWatchUITests;
+			productReference = A3FB15541CF6E53C00E05EA6 /* AGStopWatchUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		A3FB15671CF6E54E00E05EA6 /* AGWatch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A3FB15891CF6E54E00E05EA6 /* Build configuration list for PBXNativeTarget "AGWatch" */;
+			buildPhases = (
+				A3FB15661CF6E54E00E05EA6 /* Resources */,
+				A3FB15881CF6E54E00E05EA6 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A3FB15771CF6E54E00E05EA6 /* PBXTargetDependency */,
+			);
+			name = AGWatch;
+			productName = AGWatch;
+			productReference = A3FB15681CF6E54E00E05EA6 /* AGWatch.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		A3FB15731CF6E54E00E05EA6 /* AGWatch Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A3FB15851CF6E54E00E05EA6 /* Build configuration list for PBXNativeTarget "AGWatch Extension" */;
+			buildPhases = (
+				A3FB15701CF6E54E00E05EA6 /* Sources */,
+				A3FB15711CF6E54E00E05EA6 /* Frameworks */,
+				A3FB15721CF6E54E00E05EA6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "AGWatch Extension";
+			productName = "AGWatch Extension";
+			productReference = A3FB15741CF6E54E00E05EA6 /* AGWatch Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A3FB15281CF6E53C00E05EA6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Anton Gorlov";
+				TargetAttributes = {
+					A3FB152F1CF6E53C00E05EA6 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					A3FB15481CF6E53C00E05EA6 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = A3FB152F1CF6E53C00E05EA6;
+					};
+					A3FB15531CF6E53C00E05EA6 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = A3FB152F1CF6E53C00E05EA6;
+					};
+					A3FB15671CF6E54E00E05EA6 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					A3FB15731CF6E54E00E05EA6 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = A3FB152B1CF6E53C00E05EA6 /* Build configuration list for PBXProject "AGStopWatch" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A3FB15271CF6E53C00E05EA6;
+			productRefGroup = A3FB15311CF6E53C00E05EA6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A3FB152F1CF6E53C00E05EA6 /* AGStopWatch */,
+				A3FB15481CF6E53C00E05EA6 /* AGStopWatchTests */,
+				A3FB15531CF6E53C00E05EA6 /* AGStopWatchUITests */,
+				A3FB15671CF6E54E00E05EA6 /* AGWatch */,
+				A3FB15731CF6E54E00E05EA6 /* AGWatch Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A3FB152E1CF6E53C00E05EA6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3FB15431CF6E53C00E05EA6 /* LaunchScreen.storyboard in Resources */,
+				A3FB15401CF6E53C00E05EA6 /* Assets.xcassets in Resources */,
+				A3FB153E1CF6E53C00E05EA6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3FB15471CF6E53C00E05EA6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3FB15521CF6E53C00E05EA6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3FB15661CF6E54E00E05EA6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3FB156E1CF6E54E00E05EA6 /* Assets.xcassets in Resources */,
+				A3FB156C1CF6E54E00E05EA6 /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3FB15721CF6E54E00E05EA6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3FB15801CF6E54E00E05EA6 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A3FB152C1CF6E53C00E05EA6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3FB153B1CF6E53C00E05EA6 /* ViewController.m in Sources */,
+				A3FB15381CF6E53C00E05EA6 /* AppDelegate.m in Sources */,
+				A3FB15351CF6E53C00E05EA6 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3FB15451CF6E53C00E05EA6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3FB154E1CF6E53C00E05EA6 /* AGStopWatchTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3FB15501CF6E53C00E05EA6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3FB15591CF6E53C00E05EA6 /* AGStopWatchUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3FB15701CF6E54E00E05EA6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3FB157E1CF6E54E00E05EA6 /* ExtensionDelegate.m in Sources */,
+				A3FB15921CF6FAF800E05EA6 /* NSString+AGFormatTime.m in Sources */,
+				A3FB157B1CF6E54E00E05EA6 /* InterfaceController.m in Sources */,
+				A3FB158F1CF6E9D600E05EA6 /* AGCoachWatches.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A3FB154B1CF6E53C00E05EA6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A3FB152F1CF6E53C00E05EA6 /* AGStopWatch */;
+			targetProxy = A3FB154A1CF6E53C00E05EA6 /* PBXContainerItemProxy */;
+		};
+		A3FB15561CF6E53C00E05EA6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A3FB152F1CF6E53C00E05EA6 /* AGStopWatch */;
+			targetProxy = A3FB15551CF6E53C00E05EA6 /* PBXContainerItemProxy */;
+		};
+		A3FB15771CF6E54E00E05EA6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A3FB15731CF6E54E00E05EA6 /* AGWatch Extension */;
+			targetProxy = A3FB15761CF6E54E00E05EA6 /* PBXContainerItemProxy */;
+		};
+		A3FB15831CF6E54E00E05EA6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A3FB15671CF6E54E00E05EA6 /* AGWatch */;
+			targetProxy = A3FB15821CF6E54E00E05EA6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A3FB153C1CF6E53C00E05EA6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A3FB153D1CF6E53C00E05EA6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A3FB15411CF6E53C00E05EA6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A3FB15421CF6E53C00E05EA6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		A3FB156A1CF6E54E00E05EA6 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A3FB156B1CF6E54E00E05EA6 /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A3FB155B1CF6E53C00E05EA6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A3FB155C1CF6E53C00E05EA6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A3FB155E1CF6E53C00E05EA6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = AGStopWatch/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Anton-Gorlov.AGStopWatch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A3FB155F1CF6E53C00E05EA6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = AGStopWatch/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Anton-Gorlov.AGStopWatch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A3FB15611CF6E53C00E05EA6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = AGStopWatchTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Anton-Gorlov.AGStopWatchTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AGStopWatch.app/AGStopWatch";
+			};
+			name = Debug;
+		};
+		A3FB15621CF6E53C00E05EA6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = AGStopWatchTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Anton-Gorlov.AGStopWatchTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AGStopWatch.app/AGStopWatch";
+			};
+			name = Release;
+		};
+		A3FB15641CF6E53C00E05EA6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = AGStopWatchUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Anton-Gorlov.AGStopWatchUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = AGStopWatch;
+			};
+			name = Debug;
+		};
+		A3FB15651CF6E53C00E05EA6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = AGStopWatchUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Anton-Gorlov.AGStopWatchUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = AGStopWatch;
+			};
+			name = Release;
+		};
+		A3FB15861CF6E54E00E05EA6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "AGWatch Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Anton-Gorlov.AGStopWatch.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.2;
+			};
+			name = Debug;
+		};
+		A3FB15871CF6E54E00E05EA6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "AGWatch Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Anton-Gorlov.AGStopWatch.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.2;
+			};
+			name = Release;
+		};
+		A3FB158A1CF6E54E00E05EA6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				IBSC_MODULE = AGWatch_Extension;
+				INFOPLIST_FILE = AGWatch/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = "Anton-Gorlov.AGStopWatch.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.2;
+			};
+			name = Debug;
+		};
+		A3FB158B1CF6E54E00E05EA6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				IBSC_MODULE = AGWatch_Extension;
+				INFOPLIST_FILE = AGWatch/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = "Anton-Gorlov.AGStopWatch.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A3FB152B1CF6E53C00E05EA6 /* Build configuration list for PBXProject "AGStopWatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3FB155B1CF6E53C00E05EA6 /* Debug */,
+				A3FB155C1CF6E53C00E05EA6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A3FB155D1CF6E53C00E05EA6 /* Build configuration list for PBXNativeTarget "AGStopWatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3FB155E1CF6E53C00E05EA6 /* Debug */,
+				A3FB155F1CF6E53C00E05EA6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A3FB15601CF6E53C00E05EA6 /* Build configuration list for PBXNativeTarget "AGStopWatchTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3FB15611CF6E53C00E05EA6 /* Debug */,
+				A3FB15621CF6E53C00E05EA6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A3FB15631CF6E53C00E05EA6 /* Build configuration list for PBXNativeTarget "AGStopWatchUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3FB15641CF6E53C00E05EA6 /* Debug */,
+				A3FB15651CF6E53C00E05EA6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A3FB15851CF6E54E00E05EA6 /* Build configuration list for PBXNativeTarget "AGWatch Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3FB15861CF6E54E00E05EA6 /* Debug */,
+				A3FB15871CF6E54E00E05EA6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A3FB15891CF6E54E00E05EA6 /* Build configuration list for PBXNativeTarget "AGWatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3FB158A1CF6E54E00E05EA6 /* Debug */,
+				A3FB158B1CF6E54E00E05EA6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A3FB15281CF6E53C00E05EA6 /* Project object */;
+}
